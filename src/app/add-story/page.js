@@ -11,14 +11,14 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 import { MdFormatSize } from "react-icons/md";
 import { font } from "./utils/font";
 import { IoIosColorPalette } from "react-icons/io";
-import Dropdown from "../../components/Story/common/Dropdown";
+import Dropdown from "../components/Story/common/Dropdown";
 import { fontSize } from "./utils/fontSize";
-import PreviewStory from "../../components/Story/PreviewStory";
+import PreviewStory from "../components/Story/PreviewStory";
 import { background } from "./utils/background";
-import ListDropdown from "../../components/Story/common/ListDropdown";
+import ListDropdown from "../components/Story/common/ListDropdown";
 import { privacyData } from "./utils/privacy";
 import { durationData } from "./utils/duration";
-import DiscardModal from "../../components/Story/common/DiscardModal";
+import DiscardModal from "../components/Story/common/DiscardModal";
 import Image from "next/image";
 
 const Index = () => {
